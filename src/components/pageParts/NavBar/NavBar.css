@@ -1,0 +1,27 @@
+.bar {
+    background: white;
+}
+
+nav {
+    min-height: 43px;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    text-align: right;
+
+}
+
+nav>a {
+    font-size: x-large;
+    margin: 15px;
+    text-decoration: none;
+    color: rgb(0, 171, 85);
+    border-radius: 12px;
+    padding: 17px 20px 10px 20px;
+    border: 4px solid transparent;
+    font-weight: bold;
+}
+
+nav>a:hover {
+    border: 4px solid;
+    transition: 1s;
+}
