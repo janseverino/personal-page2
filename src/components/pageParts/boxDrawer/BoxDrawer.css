@@ -1,0 +1,22 @@
+ul {
+    list-style: none;
+    text-align: center;
+    padding: 0px;
+}
+
+li {
+    padding: 10px;
+    color: #1687A7;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 1s;
+}
+
+li:hover {
+    background: #D3E0EA;
+    transition: 0.5s;
+}
+
+.boxDrawer {
+    width: 250px;
+}

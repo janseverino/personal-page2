@@ -1,0 +1,17 @@
+.bar {
+    background: white;
+    color: #1687A7;
+    min-height: 29px;
+    padding-top: 23px;
+    padding-bottom: 15px;
+}
+
+.burgerBox {
+    text-align: left;
+    padding-left: 25px;
+    font-size: 25px;
+}
+
+.burgerBox>svg {
+    cursor: pointer;
+}

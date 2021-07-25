@@ -1,16 +1,21 @@
+import { useContext } from 'react';
+import SiteContext from '../../../context/SiteContext';
 import './NavBar.css'
-const NavBar = () => {
+
+export default function NavBar() {
+
+    const siteContext = useContext(SiteContext);
 
     return (
-        <div className="bar">
+        <div>
             <nav>
-                <a href="">Inicio</a>
-                <a href="">About me</a>
-                <a href="">How i code</a>
-                <a href="">Contact</a>
+                {siteContext.routes.map((item, idx) => <a key={idx} href={`#${item.to}`}>{item.desc} </a>)}
             </nav>
+            <ul>
+
+            </ul>
+
         </div>
 
     )
 }
-export default NavBar;
