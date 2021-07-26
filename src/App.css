@@ -2,9 +2,8 @@
   text-align: center;
 }
 
-
-.App-section2 {
-  background-color: #02d46b;
+.section {
+  /* background-color: #02d46b; */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -14,18 +13,7 @@
   color: white;
 }
 
-.App-section3 {
-  background-color: #02cdd4;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-a {
+.a-link {
   font-size: large;
   color: #1687A7;
   margin: 10px;
@@ -33,5 +21,10 @@ a {
   border-radius: 12px;
   padding: 8px 15px 8px 15px;
   border: 4px solid transparent;
+  font-weight: bold;
+}
+
+.bright {
+  color: #FFC947;
   font-weight: bold;
 }

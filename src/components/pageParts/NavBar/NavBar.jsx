@@ -1,4 +1,5 @@
 import { useContext } from 'react';
+import { HashLink } from 'react-router-hash-link';
 import SiteContext from '../../../context/SiteContext';
 import './NavBar.css'
 
@@ -9,7 +10,10 @@ export default function NavBar() {
     return (
         <div>
             <nav>
-                {siteContext.routes.map((item, idx) => <a key={idx} href={`#${item.to}`}>{item.desc} </a>)}
+                {siteContext.routes.map((item, idx) =>
+                    <HashLink className="a-link" key={idx} smooth to={`#${item.to}`} scroll={(e) => e.scrollIntoView({ behavior: 'smooth' })}>
+                        {item.desc}
+                    </HashLink>)}
             </nav>
             <ul>
 

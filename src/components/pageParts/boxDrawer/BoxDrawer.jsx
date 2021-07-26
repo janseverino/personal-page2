@@ -15,7 +15,10 @@ export default function BoxDrawer({ openDrawer, showDrawer }) {
          <div className="boxDrawer">
 
             <ul>
-               {siteContext.routes.map((item, idx) => <li key={idx}> <a href={`#${item.to}`}>{item.desc} </a></li>)}
+               {siteContext.routes.map((item, idx) =>
+                  <li key={idx}>
+                     <a href={`#${item.to}`}>{item.desc} </a>
+                  </li>)}
             </ul>
 
          </div>

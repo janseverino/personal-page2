@@ -1,0 +1,20 @@
+.project-link {
+    background: #1687a7;
+    text-align: center;
+    border-radius: 14px;
+    box-shadow: 0px 0px 15px -6px black;
+    transition: 1s;
+
+    text-decoration: none;
+    color: white;
+}
+
+.project-link:hover {
+    transform: scale(1.1);
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+img {
+    border-radius: 14px 14px 0px 0px;
+}

@@ -1,0 +1,23 @@
+.img-link {
+    margin-right: 40px;
+    margin-left: 40px;
+    color: white
+}
+
+.linkedin:hover {
+    color: #134466;
+}
+
+.github:hover {
+    color: #434343;
+}
+
+
+.mail:hover {
+    color: #ce2751;
+}
+
+.container {
+    padding-top: 20px;
+    font-size: 3em;
+}
